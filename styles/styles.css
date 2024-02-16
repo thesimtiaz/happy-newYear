@@ -91,7 +91,7 @@
 .welcome-text button {
   color: white;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   transition-duration: 0.4s;
@@ -101,4 +101,59 @@
 }
 .welcome-text button:hover {
   color: #04aa6d;
+}
+
+.special-offers {
+  display: flex;
+  align-items: center;
+}
+.left-side {
+  max-width: 463px;
+  margin: 70px 70px auto 0;
+}
+.left-side h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.left-side h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.left-side p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.middle-side {
+  text-align: center;
+}
+.new-img {
+  border: 20px solid #f00;
+  border-radius: 50%;
+  padding: 30px;
+}
+.right-side {
+  max-width: 394px;
+  margin-left: 118px;
+}
+.right-side h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.right-side p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
