@@ -4,3 +4,31 @@
   margin: 0px;
   padding: 0px;
 }
+.container {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.banner {
+  background-image: linear-gradient(#070211, #07021100),
+    url("../images/banner.png");
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding: 180px 0;
+  border-radius: 10px;
+}
+.banner .banner-text h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.banner .banner-text h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  width: 630px;
+  margin: 0 auto;
+}
