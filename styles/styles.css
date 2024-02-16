@@ -146,6 +146,12 @@
   font-weight: 400;
   margin-bottom: 40px;
 }
+.card-heading p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
 .card-items {
   margin-top: 45px;
   display: grid;
@@ -160,8 +166,12 @@
 }
 .newsletter p {
   margin-bottom: 48px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
 }
-.contact {
+.form {
   max-width: 550px;
   margin: 0 auto;
   display: flex;
@@ -187,4 +197,61 @@
   background: #f00;
   border: none;
   cursor: pointer;
+}
+footer {
+  background: #070211;
+  padding: 25px 0;
+}
+#address-information {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.address p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.contact p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  align-content: center;
+}
+.horizontal {
+  margin: 40px 40px;
+  color: #f00;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.social-media {
+  text-align: center;
+}
+.social-media .media{
+  margin-right: 24px;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.copyright p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.copyright button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.copyright button:hover {
+  color: #04aa6d;
 }
