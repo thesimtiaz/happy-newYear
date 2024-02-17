@@ -103,7 +103,55 @@
   background-color: transparent;
 }
 .welcome-text button:hover {
-  color: #04aa6d;
+  color: #c58732;
+}
+
+.place {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 150px 0;
+  border-radius: 10px;
+}
+#place {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  margin: 16px 0;
+}
+.place-red {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.place .join-now {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.place button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  margin-top: 48px;
+  cursor: pointer;
+}
+.place button:hover {
+  background: #c58732;
 }
 
 .special-offers {
@@ -198,6 +246,9 @@
   border: none;
   cursor: pointer;
 }
+#submit:hover {
+  background: #c58732;
+}
 footer {
   background: #070211;
   padding: 25px 0;
@@ -228,7 +279,7 @@ footer {
 .social-media {
   text-align: center;
 }
-.social-media .media{
+.social-media .media {
   margin-right: 24px;
 }
 .copyright {
@@ -253,5 +304,5 @@ footer {
   background-color: transparent;
 }
 .copyright button:hover {
-  color: #04aa6d;
+  color: #c58732;
 }
